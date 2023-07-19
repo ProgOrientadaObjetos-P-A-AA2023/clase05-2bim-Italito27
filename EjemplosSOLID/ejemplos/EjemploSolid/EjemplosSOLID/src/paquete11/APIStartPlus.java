@@ -12,12 +12,12 @@ import java.util.Random;
  */
 public class APIStartPlus implements APIMovie{
     
-    private String apiKey;
+private String apiKey;
     
-   @Override
+    @Override
     public void establecerApiKey(String ak){
         Random r = new Random();
-        int random = r.nextInt(26559262);
+        int random = r.nextInt(15121644);
         apiKey = ak + random;
     }
     

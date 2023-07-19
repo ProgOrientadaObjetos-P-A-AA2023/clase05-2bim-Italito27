@@ -15,7 +15,7 @@ public class APINetflix implements APIMovie{
     @Override
     public void establecerApiKey(String ak){
         Random r = new Random();
-        int random = r.nextInt(26559262);
+        int random = r.nextInt(85922012);
         apiKey = ak + random;
     }
     
@@ -25,3 +25,4 @@ public class APINetflix implements APIMovie{
     }
     
 }
+
